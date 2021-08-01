@@ -122,3 +122,12 @@ do {
 //for in
 
 //for of
+
+//continue break
+for (let i = 0; i < 14; i++) {
+  if (i == 10) {
+    continue;
+  }
+
+  if ((i = 13)) break;
+}
