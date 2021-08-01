@@ -163,5 +163,16 @@ adiSoyadi3:"Yelda Çiftçikal",
 adiSoyadi4:"Hamit Mızrak",
 sayi:44,
 karar:true
-
 };
+
+//normal function
+var toplam= function toplam(sayi1,sayi2){ return sayi1+sayi2};
+
+//ts function
+var toplam2= function toplam2(sayi1:number,sayi2:number){ return sayi1+sayi2};
+
+//anonymous arrow function
+//Arrow function ()=>{}
+var toplam3= (sayi1:number,sayi2:number)=>{ return sayi1+sayi2};
+
+
