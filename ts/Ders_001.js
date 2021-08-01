@@ -48,3 +48,39 @@ function deneme7(tarih) {
     console.log(tarih);
     return 44;
 }
+//Math
+console.log(Math.min(5, 6, 9, 8));
+console.log(Math.max(5, 6, 9, 8));
+console.log(Math.pow(2, 5));
+console.log(Math.abs(-44));
+console.log(Math.ceil(4.1));
+console.log(Math.sqrt(16));
+console.log(Math.floor(4.9));
+console.log(Math.round(4.9));
+console.log(Math.random() * 3 + 1);
+//if else
+var sayi8 = 8;
+if (sayi8 === 8) {
+    console.log("sayı 8");
+}
+else if (sayi8 === 9) {
+    console.log("sayı 9");
+}
+else {
+    document.writeln("farklı");
+}
+//switch case
+switch (sayi8) {
+    case 1:
+        console.log("sayı 1");
+        break;
+    case 2:
+        console.log("sayı 2");
+        break;
+    case 3:
+        console.log("sayı 3");
+        break;
+    default:
+        document.writeln("farklı");
+        break;
+}
