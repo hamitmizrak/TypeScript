@@ -23,3 +23,28 @@ var ikilik = 1;
 var sekizlik = 485;
 var onluk = 741;
 var onaltilik = 0x125;
+//fonksiyon
+function deneme(adi, soyadi) {
+    return adi + " " + soyadi;
+}
+function deneme2(adi, soyadi) {
+    return adi + " " + soyadi;
+}
+function deneme3(adi, soyadi) {
+    return adi + " " + soyadi;
+}
+function deneme4(tarih) {
+    console.log(tarih);
+}
+function deneme5(tarih) {
+    console.log(tarih);
+    return "deneme";
+}
+function deneme6(tarih) {
+    console.log(tarih);
+    return true;
+}
+function deneme7(tarih) {
+    console.log(tarih);
+    return 44;
+}
