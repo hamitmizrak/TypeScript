@@ -23,3 +23,9 @@ var sabit: number = 55;
 let ternary = sabit === 55 ? "sayı 55" : "sayı 55 farklı";
 console.log(ternary);
 alert(ternary);
+
+//sayısal sistemler
+var ikilik: number = 0b0001;
+var sekizlik: number = 0o745;
+var onluk: number = 741;
+let onaltilik: number = 0x125;
