@@ -13,3 +13,8 @@ var SABIT = 3.14555;
 var isim = "Hamit";
 var sonuc;
 sonuc = true;
+//Ternary
+var sabit = 55;
+var ternary = sabit === 55 ? "sayı 55" : "sayı 55 farklı";
+console.log(ternary);
+alert(ternary);

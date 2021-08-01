@@ -13,7 +13,13 @@
 //TS: number,string,boolean ,any:joker
 var sayi: number = 44.55; //virgüllü sayılar
 var sayi2: number = 66; //tam sayılar
-const SABIT:number=3.14555;
+const SABIT: number = 3.14555;
 let isim: string = "Hamit";
 let sonuc: boolean;
 sonuc = true;
+
+//Ternary
+var sabit: number = 55;
+let ternary = sabit === 55 ? "sayı 55" : "sayı 55 farklı";
+console.log(ternary);
+alert(ternary);
