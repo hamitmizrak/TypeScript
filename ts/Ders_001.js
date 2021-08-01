@@ -126,3 +126,14 @@ for (var _i = 0, dizi_1 = dizi; _i < dizi_1.length; _i++) {
 }
 //çıktı: Html5 Css3 Js jQuery Bootstrap Ts Responsive
 //dizi.
+//null==> hiç oluşturulmamış
+//undefined ==> içeriğine birşey eklememis
+//NaN==> Not A Number 
+var object = {
+    adiSoyadi: "Lamia Demirok",
+    adiSoyadi2: "Oulcan Karakollukcu",
+    adiSoyadi3: "Yelda Çiftçikal",
+    adiSoyadi4: "Hamit Mızrak",
+    sayi: 44,
+    karar: true
+};
