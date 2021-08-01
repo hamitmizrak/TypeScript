@@ -99,3 +99,26 @@ switch (sayi8) {
     document.writeln("farklı");
     break;
 }
+
+//for
+for (let i = 1; i < 10; i++) {
+  console.log("sayılar: " + i);
+}
+
+//while
+var sayi44: number = 0;
+while (sayi44 < 14) {
+  console.log(sayi44);
+  sayi44++;
+}
+
+//do-while
+var sayiDo: number = 0;
+do {
+  console.log(sayiDo);
+  sayiDo++;
+} while (sayiDo < 12);
+
+//for in
+
+//for of
