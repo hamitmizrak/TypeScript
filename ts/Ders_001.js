@@ -128,7 +128,7 @@ for (var _i = 0, dizi_1 = dizi; _i < dizi_1.length; _i++) {
 //dizi.
 //null==> hiç oluşturulmamış
 //undefined ==> içeriğine birşey eklememis
-//NaN==> Not A Number 
+//NaN==> Not A Number
 var object = {
     adiSoyadi: "Lamia Demirok",
     adiSoyadi2: "Oulcan Karakollukcu",
@@ -138,9 +138,16 @@ var object = {
     karar: true
 };
 //normal function
-var toplam = function toplam(sayi1, sayi2) { return sayi1 + sayi2; };
+var toplam = function toplam(sayi1, sayi2) {
+    return sayi1 + sayi2;
+};
 //ts function
-var toplam2 = function toplam2(sayi1, sayi2) { return sayi1 + sayi2; };
+var toplam2 = function toplam2(sayi1, sayi2) {
+    return sayi1 + sayi2;
+};
 //anonymous arrow function
 //Arrow function ()=>{}
-var toplam3 = function (sayi1, sayi2) { return sayi1 + sayi2; };
+var toplam3 = function (sayi1, sayi2) {
+    return sayi1 + sayi2;
+};
+////////////////////////// OOP ///////////////////
