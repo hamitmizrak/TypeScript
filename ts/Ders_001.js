@@ -110,3 +110,19 @@ for (var i = 0; i < 14; i++) {
     if ((i = 13))
         break;
 }
+//normal diziler
+var diziNormal = [];
+var dizi = ["Html5 Css3 Js jQuery Bootstrap Ts Responsive"];
+console.log.apply(console, dizi);
+//for in
+for (var temp in dizi) {
+    console.log(dizi[temp]);
+}
+//çıktı: 1 2 3 4 5 6 7
+//for of
+for (var _i = 0, dizi_1 = dizi; _i < dizi_1.length; _i++) {
+    var temp = dizi_1[_i];
+    console.log(dizi[temp]);
+}
+//çıktı: Html5 Css3 Js jQuery Bootstrap Ts Responsive
+//dizi.
