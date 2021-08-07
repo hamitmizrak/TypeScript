@@ -1,9 +1,17 @@
 package com.hamit.car;
 
+import java.util.Scanner;
+
 //@Data
 //@NoArgsConstructor
 //@AllArgsConstructor
 public class Araba {
+
+	public static void main(String[] args) {
+		Scanner kalvye = new Scanner(System.in);
+		System.out.println("kelime giriniz");
+		String kelime = kalvye.nextLine();
+	}
 
 	private String adi;
 	private String marka;

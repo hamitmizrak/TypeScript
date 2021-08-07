@@ -1,0 +1,3 @@
+class Buzdolabi extends BeyazEsya {
+    
+}
